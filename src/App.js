@@ -8,8 +8,8 @@ import DifferentialManchester from "./components/DifferentialManchester";
 import "./App.css";
 
 function App() {
-  const [inputSize, setInputSize] = useState(4);
-  const [inputData, setInputData] = useState(generateRandomData(4));
+  const [inputSize, setInputSize] = useState(8);
+  const [inputData, setInputData] = useState(generateRandomData(8));
   const [startTop, setStartTop] = useState(true);
 
   // Function to generate random data

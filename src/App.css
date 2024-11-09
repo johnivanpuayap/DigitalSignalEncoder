@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box; /* Also adding box-sizing for better layout control */
+}
+
 body {
   background-color: #121212; /* Dark background */
   color: #fff; /* White text */

@@ -74,7 +74,7 @@ function App() {
           id="input-size"
           type="range"
           min="4"
-          max="15"
+          max="20"
           value={inputSize}
           onChange={handleSliderChange}
           className="slider"
